@@ -1,0 +1,2 @@
+kill <PID>
+#We should know the PID of process, u need to kill

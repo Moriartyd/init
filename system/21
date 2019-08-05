@@ -1,0 +1,4 @@
+#ls /home
+#it's just for fun, but it's working
+
+cat /etc/passwd | awk -F":" '$3 >= 1000 && $1 != "nobody" {print $1}'
