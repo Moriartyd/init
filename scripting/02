@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [$# = 1]
+then
+	sudo pkill -u $1
+	sudo userdel $1
+else
+	echo "usage ./02 [UserName]"
+fi
